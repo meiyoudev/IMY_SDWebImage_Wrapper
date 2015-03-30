@@ -1,0 +1,99 @@
+PODS:
+  - Aspects (1.4.1)
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - GCDObjC (0.2.0)
+  - IMY_Theme (1.0):
+    - Aspects
+    - BlocksKit
+    - Masonry
+    - ObjcAssociatedObjectHelpers
+  - libwebp (0.4.3):
+    - libwebp/core (= 0.4.3)
+    - libwebp/dec (= 0.4.3)
+    - libwebp/demux (= 0.4.3)
+    - libwebp/dsp (= 0.4.3)
+    - libwebp/enc (= 0.4.3)
+    - libwebp/mux (= 0.4.3)
+    - libwebp/utils (= 0.4.3)
+    - libwebp/webp (= 0.4.3)
+  - libwebp/core (0.4.3):
+    - libwebp/webp
+  - libwebp/dec (0.4.3):
+    - libwebp/core
+  - libwebp/demux (0.4.3):
+    - libwebp/core
+  - libwebp/dsp (0.4.3):
+    - libwebp/core
+  - libwebp/enc (0.4.3):
+    - libwebp/core
+  - libwebp/mux (0.4.3):
+    - libwebp/core
+  - libwebp/utils (0.4.3):
+    - libwebp/core
+  - libwebp/webp (0.4.3)
+  - Masonry (0.6.1)
+  - ObjcAssociatedObjectHelpers (2.0.0):
+    - ObjcAssociatedObjectHelpers/Core (= 2.0.0)
+    - ObjcAssociatedObjectHelpers/NSObject+Dictionary (= 2.0.0)
+  - ObjcAssociatedObjectHelpers/Core (2.0.0)
+  - ObjcAssociatedObjectHelpers/NSObject+Dictionary (2.0.0):
+    - ObjcAssociatedObjectHelpers/Core
+  - ReactiveCocoa (2.4.7):
+    - ReactiveCocoa/UI (= 2.4.7)
+  - ReactiveCocoa/Core (2.4.7):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.4.7)
+  - ReactiveCocoa/UI (2.4.7):
+    - ReactiveCocoa/Core
+  - SDWebImage (3.7.2):
+    - SDWebImage/Core (= 3.7.2)
+  - SDWebImage/Core (3.7.2)
+  - SDWebImage/WebP (3.7.2):
+    - libwebp
+    - SDWebImage/Core
+
+DEPENDENCIES:
+  - Aspects
+  - BlocksKit
+  - GCDObjC
+  - IMY_Theme (from `https://github.com/meiyoudev/IMY_Theme.git`)
+  - ObjcAssociatedObjectHelpers
+  - ReactiveCocoa (~> 2.4.7)
+  - SDWebImage
+  - SDWebImage/WebP
+
+EXTERNAL SOURCES:
+  IMY_Theme:
+    :git: https://github.com/meiyoudev/IMY_Theme.git
+
+CHECKOUT OPTIONS:
+  IMY_Theme:
+    :commit: a7cd48808a9c5acbe308fb3eb9bd5e23fafca660
+    :git: https://github.com/meiyoudev/IMY_Theme.git
+
+SPEC CHECKSUMS:
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  GCDObjC: adcd9941029e3628de539347d3a6777470a65998
+  IMY_Theme: 76eaf66de03db19e7e55828c36bf17e5a1eff8a1
+  libwebp: 360ed8bc4ec8da413f07f84071e7f5a5c67a285d
+  Masonry: 4972309f2f134de9dd312f4dc4a21359b50e6caa
+  ObjcAssociatedObjectHelpers: 17b4253952858ff98a31b2a9fbe672294e43bf92
+  ReactiveCocoa: eb38dee0a0e698f73a9b25e5c1faea2bb4c79240
+  SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
+
+COCOAPODS: 0.36.1
