@@ -14,9 +14,6 @@
     "BlocksKit": [],
     "Aspects": [],
     "Masonry": [],
-    "ObjcAssociatedObjectHelpers": [],
-    "IMY_Theme":[
-                 {"git":"https://github.com/meiyoudev/IMY_Theme.git"}
-    ]
+    "ObjcAssociatedObjectHelpers": []
   }
 }
