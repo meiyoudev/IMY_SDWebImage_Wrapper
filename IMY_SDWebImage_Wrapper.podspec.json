@@ -9,5 +9,14 @@
   "source": {"git": "https://github.com/meiyoudev/IMY_SDWebImage_Wrapper.git"},
   "platforms": {"ios": "6.0"},
   "source_files": "IMY_SDWebImageWrapper/wrapper/*.{h,m}",
-  "requires_arc": true
+  "requires_arc": true,
+  "dependencies": {
+    "BlocksKit": [],
+    "Aspects": [],
+    "Masonry": [],
+    "ObjcAssociatedObjectHelpers": [],
+    "IMY_Theme":[
+            {"git":"https://github.com/meiyoudev/IMY_Theme.git"}
+    ]
+  }
 }

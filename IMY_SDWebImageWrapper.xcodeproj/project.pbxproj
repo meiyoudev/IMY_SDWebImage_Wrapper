@@ -12,7 +12,7 @@
 		22F630A5567E2FB7FD53BA99 /* UIImageView+IMY_WebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F63B4E316433AB3A74B20A /* UIImageView+IMY_WebImage.m */; };
 		22F63298A80BAA285D9812CE /* NSString+IMY_WebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F63CC1C39EB256F1D67F2C /* NSString+IMY_WebImage.m */; };
 		22F63CCCDA4AA14AB1C6A3A7 /* remind_noimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 22F636FFA91B1372D16FA804 /* remind_noimage.png */; };
-		22F63D295F0A1C0CA924AD98 /* IMY_Theme.podspec.json in Resources */ = {isa = PBXBuildFile; fileRef = 22F6312BD2055FF73FBADE2D /* IMY_Theme.podspec.json */; };
+		22F63D295F0A1C0CA924AD98 /* IMY_SDWebImage_Wrapper.podspec.json in Resources */ = {isa = PBXBuildFile; fileRef = 22F6312BD2055FF73FBADE2D /* IMY_SDWebImage_Wrapper.podspec.json */; };
 		22F63F7EE672D570BE52022B /* meetyou_two@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22F639615547542CAEE231C7 /* meetyou_two@2x.png */; };
 		22F63F976276B953C1E5CC8A /* meetyou_two.png in Resources */ = {isa = PBXBuildFile; fileRef = 22F63094882C6CD40356596C /* meetyou_two.png */; };
 		2CE3D45D1AC92FE800E8B399 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE3D45C1AC92FE800E8B399 /* main.m */; };
@@ -37,7 +37,7 @@
 /* Begin PBXFileReference section */
 		1EE74AEF0DB6FAFA6FD9D9ED /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		22F63094882C6CD40356596C /* meetyou_two.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meetyou_two.png; sourceTree = "<group>"; };
-		22F6312BD2055FF73FBADE2D /* IMY_Theme.podspec.json */ = {isa = PBXFileReference; lastKnownFileType = file.json; path = IMY_Theme.podspec.json; sourceTree = SOURCE_ROOT; };
+		22F6312BD2055FF73FBADE2D /* IMY_SDWebImage_Wrapper.podspec.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = IMY_SDWebImage_Wrapper.podspec.json; sourceTree = SOURCE_ROOT; };
 		22F633A19204807D3436E28D /* UIImageView+IMY_WebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+IMY_WebImage.h"; sourceTree = "<group>"; };
 		22F636C61795E44EAC4C5E59 /* remind_noimage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "remind_noimage@2x.png"; sourceTree = "<group>"; };
 		22F636FFA91B1372D16FA804 /* remind_noimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = remind_noimage.png; sourceTree = "<group>"; };
@@ -124,7 +124,7 @@
 				2CE3D4691AC92FE800E8B399 /* LaunchScreen.xib */,
 				2CE3D45A1AC92FE800E8B399 /* Supporting Files */,
 				22F630B3CF58716FFE2FD3C2 /* wrapper */,
-				22F6312BD2055FF73FBADE2D /* IMY_Theme.podspec.json */,
+				22F6312BD2055FF73FBADE2D /* IMY_SDWebImage_Wrapper.podspec.json */,
 			);
 			path = IMY_SDWebImageWrapper;
 			sourceTree = "<group>";
@@ -265,7 +265,7 @@
 				22F6309D2781957F990A2687 /* remind_noimage@2x.png in Resources */,
 				22F63F7EE672D570BE52022B /* meetyou_two@2x.png in Resources */,
 				22F63CCCDA4AA14AB1C6A3A7 /* remind_noimage.png in Resources */,
-				22F63D295F0A1C0CA924AD98 /* IMY_Theme.podspec.json in Resources */,
+				22F63D295F0A1C0CA924AD98 /* IMY_SDWebImage_Wrapper.podspec.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
