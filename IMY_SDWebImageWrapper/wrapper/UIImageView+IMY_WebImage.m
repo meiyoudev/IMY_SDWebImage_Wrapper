@@ -62,10 +62,6 @@ SYNTHESIZE_ASC_OBJ(failureTap, setFailureTap)
 
 SYNTHESIZE_ASC_OBJ(backgroundColorKey, setBackgroundColorKey)
 
-static inline BOOL IMY_ValidContentMode(UIViewContentMode contentMode) {
-    return contentMode != -1;
-}
-
 
 - (void)layoutSubviews
 {
@@ -217,10 +213,7 @@ static inline BOOL IMY_ValidContentMode(UIViewContentMode contentMode) {
                 }
             }];
 
-            if (IMY_ValidContentMode(self.displayContentMode))
-            {
-                self.displayContentMode = self.contentMode;
-            }
+            self.displayContentMode = self.contentMode;
             self.originalTap = [self.gestureRecognizers bk_match:^BOOL(UIGestureRecognizer *gestureRecognizer) {
                 return [gestureRecognizer isKindOfClass:[UITapGestureRecognizer class]];
             }];
@@ -279,17 +272,11 @@ static inline BOOL IMY_ValidContentMode(UIViewContentMode contentMode) {
     {
         case IMY_WebImageDownloading:
         {
-            if (IMY_ValidContentMode(self.downloadContentMode))
-            {
-                return self.downloadContentMode;
-            }
+             return self.downloadContentMode;
         }
         case IMY_WebImageDownloadFailed:
         {
-            if (IMY_ValidContentMode(self.failureContentMode))
-            {
-                return self.failureContentMode;
-            }
+            return self.failureContentMode;
         }
         default:
         {
