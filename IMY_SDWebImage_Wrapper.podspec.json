@@ -11,6 +11,8 @@
   "source_files": "IMY_SDWebImageWrapper/wrapper/*.{h,m}",
   "requires_arc": true,
   "dependencies": {
+    "SDWebImage":[],
+    "SDWebImage/WebP":[],
     "BlocksKit": [],
     "Aspects": [],
     "Masonry": [],
