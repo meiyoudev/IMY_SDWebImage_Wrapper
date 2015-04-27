@@ -253,7 +253,7 @@ SYNTHESIZE_ASC_OBJ(backgroundColorKey, setBackgroundColorKey)
                 dispatch_main_async_safe(^{
                     if ([x boolValue])
                     {
-                        self.imy_setupProgressView;
+                        [self imy_setupProgressView];
                     }
                     else
                     {

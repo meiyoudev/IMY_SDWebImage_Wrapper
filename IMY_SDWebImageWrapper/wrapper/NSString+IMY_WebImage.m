@@ -10,7 +10,7 @@
 
 @implementation NSString (IMY_WebImage)
 
-+ (NSString *)qiniuURL:(id)URL resize:(CGSize)size quality:(int)quality type:(IMY_QiNiu_ImageType)type
++ (NSString *)qiniuURL:(id)URL resize:(CGSize)size quality:(NSInteger)quality type:(IMY_QiNiu_ImageType)type
 {
     NSString *urlString = nil;
     if ([URL isKindOfClass:[NSURL class]])
@@ -35,7 +35,7 @@
     }
     if ((quality > 0 && quality < 100))
     {
-        [returnMe appendFormat:@"/q/%d", quality];
+        [returnMe appendFormat:@"/q/%ld", (long)quality];
     }
     if (type != IMY_QiNiu_None)
     {

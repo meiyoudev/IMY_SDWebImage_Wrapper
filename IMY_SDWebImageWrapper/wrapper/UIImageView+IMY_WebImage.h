@@ -23,10 +23,10 @@
 @property UIViewContentMode downloadContentMode UI_APPEARANCE_SELECTOR;
 @property UIViewContentMode failureContentMode UI_APPEARANCE_SELECTOR;
 @property BOOL showProgress;
-@property(copy) NSString *placeholderImageName UI_APPEARANCE_SELECTOR;
-@property(copy) NSString *failureImageName UI_APPEARANCE_SELECTOR;
-@property(copy) NSString *backgroundColorKey UI_APPEARANCE_SELECTOR;
-@property(strong) UIView *progressView;
+@property(copy,nonatomic) NSString *placeholderImageName UI_APPEARANCE_SELECTOR;
+@property(copy,nonatomic) NSString *failureImageName UI_APPEARANCE_SELECTOR;
+@property(copy,nonatomic) NSString *backgroundColorKey UI_APPEARANCE_SELECTOR;
+@property(strong,nonatomic) UIView *progressView;
 
 
 /**
